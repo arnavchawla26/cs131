@@ -1,1 +1,2 @@
-this is my README
+this is my readme
+>>>>>>> first commit
