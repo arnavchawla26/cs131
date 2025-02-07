@@ -1,0 +1,25 @@
+  247  cd ~/cs131
+  248  mkdir ws2
+  249  cd ws2
+  250  echo $HOME
+  251  pwd
+  252  id
+  253  ls /proc/ | grep mem
+  254  cat /proc/meminfo
+  255  ls /proc/ | grep cpu
+  256  cat /proc/cpuifo
+  257  cat /proc/cpuinfo
+  258  head /proc/meminfo
+  259  head /proc/cpuinfo
+  260  grep "processor" /proc/cpuinfo | wc -l
+  261  grep "model name" /proc/cpuinfo | uniq
+  262  grep "cpu MHz" /proc/cpuinfo
+  263  ls /etc/ | grep release
+  264  cat /etc/os-release
+  265  cat /proc/iomem
+  266  id > ws2.txt
+  267  cat /proc/meminfo >> ws2.txt
+  268  cat /proc/cpuinfo >> ws2.txt
+  269  cat /etc/os-release >> ws2.txt
+  270  vim ws2.txt
+  271  history > cmds.log
