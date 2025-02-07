@@ -1,0 +1,126 @@
+ws2 text file
+
+ID = This portion includes my user id, group id and groups.
+uid=1001(arnav_chawla) gid=1002(arnav_chawla) 
+groups=1002(arnav_chawla),4(adm),20(dialout),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),118(netdev),119(lxd),1000(ubuntu),1001(google-sudoers)
+
+Memory Information like Total Memory: 976904 KB, Free Memory: 525008 KB, Available Memory: 625284 KB, Cached Memory: 193584 KB
+MemTotal:         976904 kB
+MemFree:          525008 kB
+MemAvailable:     625284 kB
+Buffers:           20464 kB
+Cached:           193584 kB
+SwapCached:            0 kB
+Active:            99804 kB
+Inactive:         175640 kB
+Active(anon):        888 kB
+Inactive(anon):    69672 kB
+Active(file):      98916 kB
+Inactive(file):   105968 kB
+Unevictable:       18472 kB
+Mlocked:           18472 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                28 kB
+Writeback:             0 kB
+AnonPages:         80004 kB
+Mapped:            60532 kB
+Shmem:               960 kB
+KReclaimable:      45992 kB
+Slab:              85932 kB
+SReclaimable:      45992 kB
+SUnreclaim:        39940 kB
+KernelStack:        2256 kB
+PageTables:         2260 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      488452 kB
+Committed_AS:     577212 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       15152 kB
+VmallocChunk:          0 kB
+Percpu:             1624 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      111384 kB
+DirectMap2M:      933888 kB
+DirectMap1G:           0 kB
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 79
+model name	: Intel(R) Xeon(R) CPU @ 2.20GHz
+stepping	: 0
+microcode	: 0xffffffff
+cpu MHz		: 2199.998
+cache size	: 56320 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt arat md_clear arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs taa mmio_stale_data retbleed bhi
+bogomips	: 4399.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+CPU Information like Processors, CPU Model and CPU Speed
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 79
+model name	: Intel(R) Xeon(R) CPU @ 2.20GHz
+stepping	: 0
+microcode	: 0xffffffff
+cpu MHz		: 2199.998
+cache size	: 56320 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt arat md_clear arch_capabilities
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs taa mmio_stale_data retbleed bhi
+bogomips	: 4399.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+Operating System Version
+NAME="Ubuntu"
+VERSION="20.04.6 LTS (Focal Fossa)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 20.04.6 LTS"
+VERSION_ID="20.04"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=focal
+UBUNTU_CODENAME=focal
