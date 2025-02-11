@@ -1,0 +1,17 @@
+  444  sudo apt install python3-pip -y
+  445  pip install gdown
+  446  gdown 1fc3saVu2GtG3Rft3zI-VOOsZhaqcSyn3
+  447  grep "2019-01-02" 2019-01-h1.csv > jan2_data.txt
+  448  cut -d',' -f8 jan2_data.txt > jan2_pickups.txt
+  449  sort jan2_pickups.txt > jan2_sorted.txt
+  450  uniq -c jan2_sorted.txt > jan2_counts.txt
+  451  sort -nr jan2
+  452  sort -nr jan2_counts.txt | head -3
+  453  grep "2019-01-10" 2019-01-h1.csv > jan10_data.txt
+  454  cut -d',' -f8 jan10_data.txt > jan10_pickups.txt
+  455  sort jan10_pickups.txt > jan10_sorted.txt
+  456  uniq -c jan10_sorted.txt > jan10_counts.txt
+  457  sort -nr jan10_counts.txt | head -3
+  458  sort -nr jan2_counts.txt | head -3 > ws3.txt
+  459  sort -nr jan10_counts.txt | head -3 >> ws3.txt
+  460  history > cmds.log
