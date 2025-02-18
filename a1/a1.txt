@@ -1,0 +1,17 @@
+# Task 1: Aliases Verification
+# Output of 'l' command 
+total 439636
+drwxrwxr-x 2 arnav_chawla arnav_chawla      4096 Feb 18 00:28 FARE
+-rw-rw-r-- 1 arnav_chawla arnav_chawla     16651 Feb 18 00:31 cmds.log
+-rw-rw-r-- 1 arnav_chawla arnav_chawla 450156048 Feb 18 01:43 2019-01-h1.csv
+-rw-rw-r-- 1 arnav_chawla arnav_chawla         0 Feb 18 01:49 a1.txt
+
+# Output of 'w' command
+5
+
+# Task 2c : Mean Fare Calculation 
+Mean Fare (48-161): 7.07
+Mean Fare (90-230): 8.52
+
+# Task 2d: Highest Total Amount Paid on January 10, 2019
+36090.3
