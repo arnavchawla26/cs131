@@ -2,7 +2,7 @@ Stock Price Fetcher
 
 📌 What This Script Does
 
-The stockprice script is a simple command-line tool that fetches real-time stock prices using the Alpha Vantage API. It allows users to quickly check the latest stock prices directly from their terminal.
+The stockprice script is a simple command-line tool that fetches real-time stock prices and answers to the user. It allows users to quickly check the latest stock prices directly from their terminal.
 
 📌 Why This Script is Useful
 
@@ -54,18 +54,8 @@ API Used: Alpha Vantage
 
 Commands Used: Bash, curl, grep, sed
 
-Dependencies: None (only requires a free API key from Alpha Vantage)
-
-Limitations: Free API plan allows only 5 requests per minute
-
 📌 Notes
 
 The script is case-insensitive for stock symbols (e.g., aapl or AAPL both work).
 
-If the stock price fails to load, ensure the API key is valid.
-
 The script can be modified to support additional data like volume, market cap, etc.
-
-📌 License
-
-This tool is open-source and free to use. Modify and distribute as needed!
