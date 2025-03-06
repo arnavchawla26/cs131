@@ -1,0 +1,21 @@
+#!/bin/bash
+
+API_KEY="5GO55V7W1DQMZ03Z" 
+API_URL="https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol="
+
+if [ -z "$1" ]; then
+    read -p "Please enter the ticker symbol of the stock: " symbol
+else
+    symbol="$1"
+fi
+
+response=$(curl -s "${API_URL}${symbol}&apikey=${API_KEY}")
+
+current_price=$(echo "$response" | grep -o '"05. price": "[0-9]*\.[0-9]*' | sed 's/"05. price": "//')
+timestamp=$(date)
+
+echo "-----------------------------------"
+echo "Stock Symbol: $symbol"
+echo "Current Time: $timestamp"
+echo "Current Price: $current_price USD"
+echo "-----------------------------------"
