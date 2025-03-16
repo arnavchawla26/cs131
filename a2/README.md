@@ -32,27 +32,6 @@ To check another stock, just replace AAPL with another ticker, such as:
 
 stockprice TSLA
 
-📌 Installation (For Personal Use)
-
-To make stockprice available from anywhere:
-
-Move the script to a system-wide location:
-
-sudo mv stockprice /usr/local/bin/
-
-Grant execution permission:
-
-sudo chmod +x /usr/local/bin/stockprice
-
-Run it from anywhere:
-
-stockprice MSFT
-
-📌 Technical Details
-
-API Used: Alpha Vantage
-
-Commands Used: Bash, curl, grep, sed
 
 📌 Notes
 
