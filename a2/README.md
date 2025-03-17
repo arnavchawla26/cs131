@@ -2,7 +2,7 @@ Stock Price Fetcher
 
 📌 What This Script Does
 
-The stockprice script is a simple command-line tool that fetches real-time stock prices and answers to the user. It allows users to quickly check the latest stock prices directly from their terminal.
+The stockprice is a tool that fetches real-time stock prices and answers to the user. It allows users to quickly check the latest stock prices directly from their terminal.
 
 📌 Why This Script is Useful
 
