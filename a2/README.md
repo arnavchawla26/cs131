@@ -23,9 +23,13 @@ stockprice AAPL
 The output will look like this:
 
 -----------------------------------
+
 Stock Symbol: AAPL
+
 Current Time: Thu Mar 6 03:20:00 UTC 2025
+
 Current Price: 235.74 USD
+
 -----------------------------------
 
 To check another stock, just replace AAPL with another ticker, such as:
